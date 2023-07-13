@@ -183,3 +183,181 @@ a {
     color: #000000;
     padding-top: 35px;
 }
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 70px 0;
+    }
+
+    .name {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5vw;
+        line-height: 41.45px;
+        color: #000000;
+    }
+
+    a {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4vw;
+        line-height: 24px;
+        text-decoration: none;
+        color: #000000;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+
+    .main {
+        background-image: url(../images/interior.png);
+        width: 100%;
+        display: grid;
+        justify-content: end;
+    }
+
+    .container {
+        background-color: #FFF3E3;
+        height: 443px;
+        width: 70%;
+        margin-top: 153px;
+        margin-right: 58px;
+        padding: 40px;
+    }
+
+    .main-info {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vw;
+        line-height: 24px;
+        letter-spacing: 3px;
+        color: #333333;
+    }
+
+    .main-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 6vw;
+        line-height: 65px;
+        color: #B88E2F;
+        margin-top: 4px;
+        margin-bottom: 17px;
+    }
+
+    .main-text {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3vw;
+        line-height: 24px;
+        color: #333333;
+    }
+
+    .main-button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3vw;
+        line-height: 24px;
+        color: #FFFFFF;
+        background-color: #B88E2F;
+        margin-top: 46px;
+        padding: 25px 72px;
+        border: none;
+    }
+
+
+    .section1 {
+        margin: 5px;
+    }
+
+    .title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 6vw;
+        line-height: 48px;
+        color: #333333;
+        display: grid;
+        justify-content: center;
+    }
+
+    .text {
+        font-family: 'Poppins', sans-serif;
+        font-size: 5vw;
+        line-height: 30px;
+        color: #666666;
+        display: grid;
+        justify-content: center;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 63px;
+        gap: 20px;
+    }
+
+    .texts {
+        display: none;
+    }
+
+
+
+    .footer {
+        height: 505px;
+        padding: 40px 100px;
+        display: grid;
+        align-items: end;
+        margin-top: 1000px;
+    }
+
+    .main-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 48px;
+    }
+
+    .footer-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    .address {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: #9F9F9F;
+    }
+
+    .links,
+    .help,
+    .newsletter {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    #links,
+    #help,
+    #newsletter {
+        color: #9F9F9F;
+    }
+
+    .input {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9F9F9F;
+    }
+
+    .rights {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        padding-top: 35px;
+    }
+
+
+}
